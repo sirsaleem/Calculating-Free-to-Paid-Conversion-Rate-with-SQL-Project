@@ -1,5 +1,3 @@
-USE db_course_conversions;
-
 SELECT 
     ROUND(COUNT(first_date_purchased) / COUNT(first_date_watched),
             2) * 100 AS conversion_rate,
